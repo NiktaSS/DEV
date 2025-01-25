@@ -1,5 +1,5 @@
 # Проектная работа
-https://github.com/NiktaSS/DEV/tree/main/learn_to_learn
+https://github.com/NiktaSS/DEV/tree/second-sprint/learn_to_learn
 
 # Научиться учиться
 
