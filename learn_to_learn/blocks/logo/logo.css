@@ -1,0 +1,10 @@
+@import url(./_place/logo_place_footer.css);
+@import url(./_place/logo_place_header.css);
+
+.logo {
+    transition: opacity ease 350ms;
+}
+
+.logo:hover {
+    opacity: 35%;
+}
