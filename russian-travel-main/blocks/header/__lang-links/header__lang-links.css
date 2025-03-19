@@ -1,0 +1,5 @@
+.header__lang-links {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(2, 1fr);
+}
