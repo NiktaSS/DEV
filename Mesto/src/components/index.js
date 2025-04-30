@@ -45,6 +45,7 @@ const popupImageCloseButton = imagePopup.querySelector('.popup__close');
 
 const avatarInput = avatarPopup.querySelector('.popup__input_type_avatar_url');
 const avatarEditButton = document.querySelector('.profile__avatar-edit-button');
+const avatarCloseButton = avatarPopup.querySelector('.popup__close');
 
 const popupList = [profilePopup, cardPopup, imagePopup, avatarPopup]; 
 popupList.forEach(popup => setupPopup(popup));
@@ -158,6 +159,7 @@ cardAddButton.addEventListener('click', openCardPopup);
 cardCloseButton.addEventListener('click', () => closeModal(cardPopup));
 popupImageCloseButton.addEventListener('click', () => closeModal(imagePopup));
 avatarEditButton.addEventListener('click', openAvatarPopup);
+avatarCloseButton.addEventListener('click', () => closeModal(avatarPopup));
 
 profileFormElement.addEventListener('submit', (evt) => handleSaving(evt, handleProfileFormSubmit)); 
 cardFormElement.addEventListener('submit', (evt) => handleSaving(evt, handleCardFormSubmit));
